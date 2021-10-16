@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #282c34;
+    border-radius: 10px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+  }
+
+.card:hover{
+    background-color: white;
+    color: black;
+}
+
+.poster{
+    border-radius: 10px;
+}
+
+@media (max-width: 550px){
+    .card{
+        width: 46%;
+    }
+}
+
+.title{
+    font-size: 17px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding:0 2px;
+}
